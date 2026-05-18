@@ -1,0 +1,23 @@
+# Project Todo List
+
+- [x] Analyze requirements
+- [x] Persist Genesis architecture handoff in `plan.md`
+- [x] Set up project structure
+- [x] Create Pydantic contracts and phase registry
+- [x] Implement deterministic scoring and gate engine foundations
+- [x] Implement in-memory session store and context anchor service
+- [x] Implement orchestrator foundation with tested phase transitions
+- [x] Initialize FastAPI backend
+- [x] Create Dockerfile and docker-compose skeleton
+- [x] Create .env configuration
+- [x] Validate Docker Compose API + PostgreSQL vertical slice
+- [x] Add default phase runner for minimal executable FASE_0/1/9/10 flow
+- [x] Implement backend interview logic
+- [x] Implement SEC generation
+- [x] Develop frontend dashboard (Bun)
+- [x] Integrate backend and frontend
+- [x] Test and validate SEC
+- [x] Generate SYSTEM_GRAPH
+- [x] Generate TRACEABILITY_GRAPH
+- [x] Perform validation phases
+- [x] Document and finalize

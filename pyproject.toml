@@ -1,0 +1,29 @@
+[project]
+name = "entrevistador-v6"
+version = "0.1.0"
+description = "Entrevistador V6 phase orchestrator and SEC contract generator"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "pydantic>=2.7,<3",
+    "sqlalchemy>=2.0,<3",
+    "psycopg[binary]>=3.2,<4",
+    "uvicorn[standard]>=0.30,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
